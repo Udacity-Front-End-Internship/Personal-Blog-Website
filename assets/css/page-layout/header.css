@@ -1,0 +1,103 @@
+header{
+    width: 100%;
+    margin: auto;
+    padding: 25px;
+}
+header .nav{
+    width: 100%;
+    margin: auto;
+}
+
+header .hero-section{
+    width: calc((100% - 90px )/1.2);
+    margin: auto;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+   
+    gap: 30px;
+}
+
+.navbar .title h1 span{
+    color: #001233;
+}
+
+
+.blog-logo figure {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blog-logo .title h1{
+    font-size: 16px;
+    color: black;
+}
+
+.navbar .blog-logo .logo img {
+    width: 60px;
+    height: 60px;
+    aspect-ratio: 2/1;
+    
+}
+
+
+.navbar .search-bar {
+    display :flex;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+    position: static;
+}
+.navbar .search-bar .search-icon {
+ order: 2;
+ position: relative;
+ bottom: 0;
+ top: 0;
+ right: 0;
+ left: 0;
+} 
+
+.navbar .burger-icon {
+    width: 25px;
+    height: 25px;
+    display: none;
+
+}
+.navbar .burger-icon img{
+    width: 25px;
+    height: 25px;
+    object-fit: 2/1;
+ 
+}
+.navbar .search-bar .search-icon img {
+    width: 25px;
+    height: 25px;
+}
+
+.search-bar input {
+    width: 80%;
+    height: 40px;
+    padding: 12px; 
+    padding-left:20px; 
+    border: 2px solid transparent;
+    border-radius: 8px;
+    outline: none;
+    background-color: #f3f3f4;
+    color: #0d0c22;
+    transition: .3s ease;
+}
+
+.input::placeholder {
+    color: #9e9ea7;
+}
+
+.input:focus, input:hover {
+    outline: none;
+    border-color: rgb(136, 170, 170);
+    background-color: #fff;
+    box-shadow: 0 0 0 7px rgb(0 0 0 / 10%);
+}

@@ -1,0 +1,143 @@
+@media (max-width: 768px) {
+    .navbar .search-bar {
+        display: none;
+    }
+
+    .navbar .blog-links {
+        flex-direction: column;
+    }
+
+    .navbar .blog-links ul {
+        flex-direction: row;
+    }
+
+    .navbar .burger-icon {
+        width: 25px;
+        height: 25px;
+        display: block;
+    }
+
+    .navbar .burger-icon img {
+        width: 25px;
+        height: 25px;
+    }
+
+    .hero-section {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto;
+        padding: 24px;
+        justify-content: center;
+    }
+
+    .hero-section .hero-image {
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    .hero-section .hero-image img {
+        width: 100%;
+        height: auto;
+    }
+
+    .hero-information h2 {
+        font-size: 28px;
+    }
+
+    .hero-information p {
+        font-size: 18px;
+    }
+
+    .blog-links ul {
+        flex-direction: column;
+    }
+
+    .post-body {
+        grid-template-columns: 1fr;
+    }
+
+    .post-body .post-article {
+        grid-column: 1;
+    }
+
+    .post-body .post-aside {
+        grid-column: 1;
+        grid-row: 2;
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        padding: 15px;
+    }
+
+    .hero-section {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto;
+        margin: 0;
+    }
+
+    .hero-section .hero-image img {
+        width: 100%;
+        height: auto;
+        max-width: 250px;
+        aspect-ratio: 3 / 2;
+    }
+
+    .navbar, .blog-links ul {
+        flex-direction: column;
+    }
+
+    .hero-information h2 {
+        font-size: 24px;
+    }
+
+    .hero-information p {
+        font-size: 16px;
+    }
+
+    .blog-posts-section .cards .card {
+        padding: 24px;
+    }
+
+    .search-bar input {
+        width: 100%;
+        height: 30px;
+    }
+
+    .blog-posts-section .cards {
+        grid-template-columns: 1fr;
+    }
+
+    .blog-posts-section .cards .card-image {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    .blog-posts-section .cards .card-image img {
+        width: 100%;
+        height: auto;
+        aspect-ratio: 3 / 1;
+    }
+
+    .blog-posts-section .cards .read-more {
+        padding: 6px 12px;
+    }
+
+    .blog-posts-section .cards .read-more:hover {
+        background-color: #0b5bb1;
+    }
+
+    .blog-posts-section .cards .read-more a {
+        font-size: 12px;
+    }
+
+    .burger-icon {
+        display: none;
+    }
+
+    .navbar .burger-icon img {
+        display: none;
+    }
+}

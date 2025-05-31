@@ -1,0 +1,15 @@
+.footer {
+    background-color: #378CE7;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+
+}
+
+.footer a {
+    text-decoration: none;
+    font-size: 14px;
+    font-style: italic;
+
+}
